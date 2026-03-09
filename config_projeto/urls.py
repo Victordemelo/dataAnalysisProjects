@@ -17,8 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app_analise.views import dashboard_view
+from app_analise import views as view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',  dashboard_view , name='dashboard'),
+    path('api/dados/', view.api_dados_alunos, name='api_dados'),
 ]
