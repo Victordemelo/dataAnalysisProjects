@@ -187,8 +187,6 @@ grid-column:1 / -1;
     display: none;
 }
 
-/* --- ADICIONE ISSO NO FINAL DO SEU CSS EXISTENTE --- */
-
 /* FUNDO ESCURO DO MODAL */
 .modal {
     display: none; 
