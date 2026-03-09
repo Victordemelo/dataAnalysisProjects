@@ -1,0 +1,101 @@
+﻿ID;Idade;Faixa Etária;Curso;Regiao;;Nota_media;Classificação de Desempenho;Classificação de Engajamento;;Dispositivo;Tempo_uso_min;Acessos_semana;Data_acesso
+1;19;< 20 anos;Engenharia;Sul;;8,5;Alta;Médio;;Android;45;5;01/03/2026
+2;21;20 a 24 anos;Engenharia;Sul;;9;Alta;Alto;;iOS;60;6;01/03/2026
+3;22;20 a 24 anos;Sistemas;Sudeste;;7;Média;Baixo;;Android;30;3;02/03/2026
+4;20;20 a 24 anos;Computação;Sudeste;;6,5;Média;Baixo;;iOS;25;2;02/03/2026
+5;23;20 a 24 anos;Engenharia;Sul;;9,5;Alta;Alto;;Android;90;7;03/03/2026
+6;21;20 a 24 anos;Sistemas;Norte;;5;Baixa;Baixo;;Desktop;15;1;03/03/2026
+7;22;20 a 24 anos;Engenharia;Sul;;8,8;Alta;Alto;;Android;80;6;04/03/2026
+8;20;20 a 24 anos;Sistemas;Sul;;0;Baixa;Baixo;;Android;0;0;04/03/2026
+9;19;< 20 anos;Computação;Sudeste;;7,5;Média;Médio;;Desktop;35;4;05/03/2026
+10;24;20 a 24 anos;Engenharia;Sul;;10;Alta;Alto;;iOS;120;8;05/03/2026
+11;21;20 a 24 anos;Sistemas;Sudeste;;8,5;Alta;Médio;;Android;45;5;06/03/2026
+12;21;20 a 24 anos;Sistemas;Sudeste;;8,5;Alta;Médio;;Android;45;5;06/03/2026
+13;22;20 a 24 anos;Engenharia;Sul;;9,1;Alta;Alto;;Android;70;6;07/03/2026
+14;;Não informada;Engenharia;Sul;;8;Alta;Médio;;Android;50;4;07/03/2026
+15;23;20 a 24 anos;Sistemas;Sudeste;;7,2;Média;Médio;;iOS;40;3;08/03/2026
+16;20;20 a 24 anos;Computação;Sudeste;;6,8;Média;Baixo;;Desktop;20;2;08/03/2026
+17;19;< 20 anos;Engenharia;Sul;;9,4;Alta;Alto;;Android;85;7;09/03/2026
+18;25;25+ anos;Sistemas;Nordeste;;8,7;Alta;Alto;;Android;60;5;09/03/2026
+19;22;20 a 24 anos;Engenharia;Sul;;9;Alta;Alto;;Android;75;6;10/03/2026
+20;22;20 a 24 anos;Engenharia;Sul;;9;Alta;Alto;;Android;75;6;10/03/2026
+21;21;20 a 24 anos;Sistemas;Sudeste;;7,1;Média;Médio;;Desktop;33;3;11/03/2026
+22;20;20 a 24 anos;Computação;Sudeste;;6;Média;Baixo;;Desktop;18;2;11/03/2026
+23;23;20 a 24 anos;Engenharia;Sul;;9,8;Alta;Alto;;Android;95;8;12/03/2026
+24;24;20 a 24 anos;Sistemas;Nordeste;;8,2;Alta;Médio;;iOS;55;4;12/03/2026
+25;19;< 20 anos;Engenharia;Norte;;4,5;Baixa;Baixo;;Android;12;1;13/03/2026
+26;20;20 a 24 anos;Computação;Sudeste;;7,4;Média;Médio;;Android;38;3;13/03/2026
+27;22;20 a 24 anos;Sistemas;Sudeste;;8;Alta;Médio;;iOS;47;4;14/03/2026
+28;21;20 a 24 anos;Engenharia;Sul;;8,9;Alta;Alto;;Android;65;5;14/03/2026
+29;23;20 a 24 anos;Engenharia;Sul;;10;Alta;Alto;;Android;110;9;15/03/2026
+30;20;20 a 24 anos;Sistemas;Sudeste;;6,7;Média;Baixo;;Desktop;22;2;15/03/2026
+31;19;< 20 anos;Computação;Sudeste;;7;Média;Baixo;;Android;29;3;16/03/2026
+32;26;25+ anos;Engenharia;Sul;;9,3;Alta;Alto;;Android;88;7;16/03/2026
+33;27;25+ anos;Sistemas;Sudeste;;9;Alta;Alto;;Android;72;6;17/03/2026
+34;21;20 a 24 anos;Sistemas;Sudeste;;8,1;Alta;Médio;;Android;44;4;17/03/2026
+35;22;20 a 24 anos;Engenharia;Sul;;8,8;Alta;Alto;;iOS;66;5;18/03/2026
+36;19;< 20 anos;Computação;Sudeste;;5,5;Baixa;Baixo;;Desktop;19;1;18/03/2026
+37;24;20 a 24 anos;Engenharia;Sul;;9,6;Alta;Alto;;Android;92;7;19/03/2026
+38;23;20 a 24 anos;Sistemas;Nordeste;;8,4;Alta;Médio;;Android;58;4;19/03/2026
+39;20;20 a 24 anos;Engenharia;Sul;;8,2;Alta;Médio;;Android;48;4;20/03/2026
+40;22;20 a 24 anos;Sistemas;Sudeste;;8;Alta;Médio;;Android;52;4;20/03/2026
+41;22;20 a 24 anos;Sistemas;Sudeste;;8;Alta;Médio;;Android;52;4;20/03/2026
+42;18;< 20 anos;Engenharia;Norte;;4;Baixa;Baixo;;Android;10;1;21/03/2026
+43;21;20 a 24 anos;Sistemas;Sudeste;;7,5;Média;Médio;;Desktop;34;3;21/03/2026
+44;23;20 a 24 anos;Computação;Sudeste;;8,3;Alta;Médio;;iOS;41;4;22/03/2026
+45;25;25+ anos;Engenharia;Sul;;9,9;Alta;Alto;;Android;105;8;22/03/2026
+46;20;20 a 24 anos;Sistemas;Sudeste;;6,9;Média;Baixo;;Android;27;2;23/03/2026
+47;22;20 a 24 anos;Engenharia;Sul;;9,2;Alta;Alto;;Android;73;6;23/03/2026
+48;21;20 a 24 anos;Sistemas;Sudeste;;8,1;Alta;Médio;;Desktop;49;4;24/03/2026
+49;19;< 20 anos;Computação;Sudeste;;7,3;Média;Médio;;Android;31;3;24/03/2026
+50;24;20 a 24 anos;Engenharia;Sul;;9,7;Alta;Alto;;Android;98;8;25/03/2026
+51;23;20 a 24 anos;Sistemas;Nordeste;;8,5;Alta;Médio;;Android;59;4;25/03/2026
+52;20;20 a 24 anos;Engenharia;Sul;;8;Alta;Médio;;Android;43;4;26/03/2026
+53;22;20 a 24 anos;Sistemas;Sudeste;;7,8;Média;Médio;;iOS;36;3;26/03/2026
+54;21;20 a 24 anos;Engenharia;Sul;;9,1;Alta;Alto;;Android;82;6;27/03/2026
+55;19;< 20 anos;Sistemas;Norte;;5,2;Baixa;Baixo;;Android;16;1;27/03/2026
+56;20;20 a 24 anos;Computação;Sudeste;;6,4;Média;Baixo;;Desktop;23;2;28/03/2026
+57;23;20 a 24 anos;Engenharia;Sul;;10;Alta;Alto;;Android;100;9;28/03/2026
+58;21;20 a 24 anos;Sistemas;Sudeste;;8;Alta;Médio;;Android;46;4;29/03/2026
+59;22;20 a 24 anos;Engenharia;Sul;;9;Alta;Alto;;Android;77;6;29/03/2026
+60;24;20 a 24 anos;Sistemas;Nordeste;;8,7;Alta;Alto;;iOS;61;5;30/03/2026
+61;25;25+ anos;Engenharia;Sul;;9,4;Alta;Alto;;Android;89;7;30/03/2026
+62;19;< 20 anos;Sistemas;Norte;;5;Baixa;Baixo;;Android;14;1;31/03/2026
+63;22;20 a 24 anos;Engenharia;Sul;;9,1;Alta;Alto;;Android;74;6;31/03/2026
+64;21;20 a 24 anos;Sistemas;Sudeste;;7,9;Média;Médio;;Desktop;39;3;01/04/2026
+65;20;20 a 24 anos;Computação;Sudeste;;6,6;Média;Baixo;;Android;26;2;01/04/2026
+66;23;20 a 24 anos;Engenharia;Sul;;9,8;Alta;Alto;;Android;93;8;02/04/2026
+67;22;20 a 24 anos;Sistemas;Sudeste;;8,3;Alta;Médio;;iOS;54;4;02/04/2026
+68;19;< 20 anos;Engenharia;Norte;;5,4;Baixa;Baixo;;Android;17;1;03/04/2026
+69;21;20 a 24 anos;Sistemas;Sudeste;;7,7;Média;Médio;;Desktop;42;3;03/04/2026
+70;24;20 a 24 anos;Engenharia;Sul;;9,6;Alta;Alto;;Android;97;8;04/04/2026
+71;20;20 a 24 anos;Sistemas;Sudeste;;6,8;Média;Baixo;;Android;28;2;04/04/2026
+72;22;20 a 24 anos;Engenharia;Sul;;9;Alta;Alto;;Android;76;6;05/04/2026
+73;23;20 a 24 anos;Sistemas;Nordeste;;8,4;Alta;Médio;;Android;57;4;05/04/2026
+74;19;< 20 anos;Computação;Sudeste;;7,2;Média;Médio;;Android;32;3;06/04/2026
+75;25;25+ anos;Engenharia;Sul;;10;Alta;Alto;;Android;101;9;06/04/2026
+76;21;20 a 24 anos;Sistemas;Sudeste;;7,6;Média;Médio;;Desktop;37;3;07/04/2026
+77;22;20 a 24 anos;Engenharia;Sul;;9,3;Alta;Alto;;Android;79;6;07/04/2026
+78;24;20 a 24 anos;Sistemas;Nordeste;;8,9;Alta;Alto;;iOS;63;5;08/04/2026
+79;19;< 20 anos;Engenharia;Norte;;4,8;Baixa;Baixo;;Android;13;1;08/04/2026
+80;20;20 a 24 anos;Computação;Sudeste;;6,3;Média;Baixo;;Desktop;21;2;09/04/2026
+81;22;20 a 24 anos;Sistemas;Sudeste;;8,2;Alta;Médio;;Android;53;4;09/04/2026
+82;23;20 a 24 anos;Engenharia;Sul;;9,7;Alta;Alto;;Android;94;8;10/04/2026
+83;21;20 a 24 anos;Sistemas;Sudeste;;;Sem nota;Baixo;;Android;0;0;10/04/2026
+84;22;20 a 24 anos;Engenharia;Sul;;11;Alta;Alto;;Android;150;10;11/04/2026
+85;20;20 a 24 anos;Sistemas;Sudeste;;6,5;Média;Baixo;;Android;-10;2;11/04/2026
+86;;Não informada;Engenharia;Sul;;8,5;Alta;Médio;;Android;45;5;12/04/2026
+87;23;20 a 24 anos;Sistemas;Nordeste;;8,4;Alta;Médio;;Android;58;4;12/04/2026
+88;23;20 a 24 anos;Sistemas;Nordeste;;8,4;Alta;Médio;;Android;58;4;12/04/2026
+89;21;20 a 24 anos;Engenharia;Sul;;9,2;Alta;Alto;;Android;83;7;13/04/2026
+90;22;20 a 24 anos;Sistemas;Sudeste;;8;Alta;Médio;;Desktop;48;4;13/04/2026
+91;19;< 20 anos;Computação;Sudeste;;7,4;Média;Médio;;Android;34;3;14/04/2026
+92;24;20 a 24 anos;Engenharia;Sul;;9,8;Alta;Alto;;Android;96;8;14/04/2026
+93;21;20 a 24 anos;Sistemas;Sudeste;;7,9;Média;Médio;;Android;40;3;15/04/2026
+94;20;20 a 24 anos;Computação;Sudeste;;6,5;Média;Baixo;;Desktop;24;2;15/04/2026
+95;23;20 a 24 anos;Engenharia;Sul;;10;Alta;Alto;;Android;102;9;16/04/2026
+96;22;20 a 24 anos;Sistemas;Sudeste;;8,1;Alta;Médio;;iOS;51;4;16/04/2026
+97;19;< 20 anos;Engenharia;Norte;;5,1;Baixa;Baixo;;Android;15;1;17/04/2026
+98;25;25+ anos;Sistemas;Nordeste;;8,8;Alta;Alto;;Android;64;5;17/04/2026
+99;20;20 a 24 anos;Computação;Sudeste;;6,7;Média;Baixo;;Desktop;27;2;18/04/2026
+100;22;20 a 24 anos;Engenharia;Sul;;9,2;Alta;Alto;;Android;78;6;18/04/2026
