@@ -186,3 +186,89 @@ grid-column:1 / -1;
 #relatorio_alunos, #relatorio_cursos, #relatorio_tempo_uso{
     display: none;
 }
+
+/* --- ADICIONE ISSO NO FINAL DO SEU CSS EXISTENTE --- */
+
+/* FUNDO ESCURO DO MODAL */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6); 
+    align-items: center;
+    justify-content: center;
+}
+
+/* CAIXA BRANCA DO MODAL */
+.modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 900px;
+    max-height: 85vh; /* Evita que o modal passe da tela */
+    overflow-y: auto; /* Cria barra de rolagem se a tabela for gigante */
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* BOTÃO DE FECHAR (X) */
+.fechar-modal {
+    color: #a2a3b7;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.fechar-modal:hover {
+    color: #1e1e2d;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+    color: #1e1e2d;
+    font-size: 24px;
+}
+
+/* ESTILIZAÇÃO DA TABELA DENTRO DO MODAL */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tabela-modal {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-modal th, .tabela-modal td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #f0f2f5;
+}
+
+.tabela-modal th {
+    background-color: #f8f9fa;
+    color: #1e1e2d;
+    font-weight: 600;
+    position: sticky; /* O cabeçalho fixa no topo ao rolar a tabela! */
+    top: 0;
+}
+
+.tabela-modal tr:hover {
+    background-color: #f0f2f5;
+}
