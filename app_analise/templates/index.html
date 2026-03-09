@@ -12,158 +12,75 @@
 
 <body>
 
-    <!-- SIDEBAR -->
     <nav class="navbar">
-
         <div class="logo">
             <h1>BigData<span>App</span></h1>
         </div>
-
         <ul class="nav-links">
             <li><a href="#">Dashboard</a></li>
             <li><a href="#relatorio_alunos">Alunos</a></li>
             <li><a href="#relatorio_cursos">Cursos</a></li>
             <li><a href="#relatorio_tempo_uso">Relatórios</a></li>
         </ul>
-
     </nav>
 
-
-    <!-- CONTEÚDO PRINCIPAL -->
     <main class="main-content">
-
         <header class="top-header">
-
             <div>
                 <h2>Visão Geral do Sistema</h2>
                 <p>Análise de Engajamento e Desempenho</p>
             </div>
-
         </header>
 
-
-        <!-- CARDS -->
         <section class="cards-grid">
-
             <div class="card card-purple">
                 <h3>Total de Alunos</h3>
                 <p class="valor">{{ total_alunos }}</p>
             </div>
-
             <div class="card card-blue">
                 <h3>Nota Média Geral</h3>
                 <p class="valor">{{ nota_media }}</p>
             </div>
-
             <div class="card card-green">
                 <h3>Tempo Médio (min)</h3>
                 <p class="valor">{{ tempo_medio }}</p>
             </div>
-
             <div class="card card-orange">
                 <h3>Total de Acessos</h3>
                 <p class="valor">{{ total_acessos }}</p>
             </div>
-
         </section>
 
-        <!-- GRÁFICOS -->
         <section class="charts-area">
-
             <div class="chart-box">
                 {{ grafico_cursos|safe }}
             </div>
-
             <div class="chart-box">
                 {{ grafico_disp|safe }}
             </div>
-
             <div class="chart-box chart-full">
                 {{ grafico_engajamento|safe }}
             </div>
         </section>
     </main>
 
+    <div id="janela_modal" class="modal">
+        <div class="modal-content">
+            <span class="fechar-modal">&times;</span>
+            <h2 id="titulo_modal">Relatório</h2>
 
-
-    <!-- RELATÓRIOS em AJAX-->
-    <section id="relatorio_alunos">
-        <div>
-            <h2>Relatórios de Alunos</h2><br>
-            <p>Aqui é alguns dados rapidos que podemos obter através dos relatórios dos alunos</p>
-        </div> <br><br>
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Idade</th>
-                        <th>Curso</th>
-                        <th>Região</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td id="aluno_idade"></td>
-                        <td id="aluno_curso"></td>
-                        <td id="aluno_regiao"></td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-responsive">
+                <table class="tabela-modal">
+                    <thead id="cabecalho_tabela_modal">
+                    </thead>
+                    <tbody id="corpo_tabela_modal">
+                    </tbody>
+                </table>
+            </div>
         </div>
-    </section>
+    </div>
 
-    <section id="relatorio_cursos">
-        <div>
-            <h2>Relatórios de Cursos</h2><br>
-            <p>Aqui é alguns dados rapidos que podemos obter através dos relatórios dos cursos</p>
-        </div> <br><br>
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Média de Nota</th>
-                        <th>Classificação de desempenho</th>
-                        <th>Engajamento do Curso</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td id="curso_nota"></td>
-                        <td id="curso_classificacao"></td>
-                        <td id="curso_engajamento"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
-
-    <section id="relatorio_tempo_uso">
-        <div>
-            <h2>Relatórios de Tempo de Uso de Internet</h2><br>
-            <p>Aqui é alguns dados rapidos que podemos obter através dos relatórios de uso do celular e internet, tanto para pesquisa, quanto para interatividade.</p>
-        </div> <br><br>
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Dispositivo</th>
-                        <th>Tempo de uso</th>
-                        <th>Ultim utilização</th>
-                        <th>Data do acesso</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td id="tempo_uso_dispositivo"></td>
-                        <td id="tempo_uso_tempo_uso"></td>
-                        <td id="tempo_uso_ultimo_uso"></td>
-                        <td id="tempo_uso_data_acesso"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
-
+    <script src="{% static 'script.js' %}"></script>
 </body>
 
 </html>
