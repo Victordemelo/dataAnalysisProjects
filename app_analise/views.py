@@ -62,6 +62,47 @@ def dashboard_view(request):
 def api_dados_alunos(request):
 
     df = pd.read_csv("Base_Tratada.csv", sep = ";", encoding='utf-8')
+
+    curso = request.GET.get("curso")
+    regiao = request.GET.get("regiao")
+    dispositivo = request.GET.get("dispositivo")
+    nota_media = request.GET.get("nota_media")
+    classificacao_desempenho = request.GET.get("classificacao_desempenho")
+    classificacao_engajamento = request.GET.get("classificacao_engajamento")
+    tempo_uso_min = request.GET.get("tempo_uso_min")
+    acessos_semana = request.GET.get("acessos_semana")
+    ordenar = request.GET.get("ordenar")
+    ordem = request.GET.get("ordem")
+
+    if curso:
+        df = df[df["Curso"] == curso]
+
+    if regiao:
+        df = df[df["Regiao"] == regiao]
+
+    if dispositivo:
+        df = df[df["Dispositivo"] == dispositivo]
+
+    if nota_media:
+        df = df[df["Nota_media"].astype(float) >= float(nota_media)]
+
+    if classificacao_desempenho:
+        df = df[df["Classificação de Desempenho"].astype(float) >= float(classificacao_desempenho)]
+    
+    if classificacao_engajamento:
+        df = df[df["Classificação de Engajamento"].astype(float) >= float(classificacao_engajamento)]
+
+    if tempo_uso_min:
+        df = df[df["Tempo_uso_min"].astype(float) >= float(tempo_uso_min)]
+
+    if acessos_semana:
+        df = df[df["Acessos_semana"].astype(float) >= float(acessos_semana)]
+
+    if ordenar:
+        df = df.sort_values(by=ordenar, ascending=(ordem == "asc"))
+
+    cols_num = df.select_dtypes(include=[np.number]).columns
+    df[cols_num] = df[cols_num].mask(df[cols_num] < 0)
     df_clean = df.replace({np.nan: None})
 
     dados_alunos = df_clean[['ID', 'Idade', 'Curso', 'Regiao']].to_dict(orient='records')
